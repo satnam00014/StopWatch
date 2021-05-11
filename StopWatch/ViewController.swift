@@ -104,6 +104,8 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
         LapButton.backgroundColor = UIColor.systemPurple
     }
     
+    //following code is for table view
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .value1, reuseIdentifier: "Cell")
         cell.textLabel?.text = "Lap \(laps.count - indexPath.row)"
