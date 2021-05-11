@@ -15,6 +15,7 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
     @IBOutlet weak var LapsTableView: UITableView!
     @IBOutlet weak var LapButton: UIButton!
     
+    //following are valiables
     var isStarted = false
     var isPaused = false
     var timer = Timer()
